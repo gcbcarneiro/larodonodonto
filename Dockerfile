@@ -2,7 +2,7 @@ FROM php:8.0.6-apache
 
 WORKDIR /var/www
 
-EXPOSE 80
+EXPOSE 8090
 
 #set apache document root
 RUN sed -i 's/\/var\/www\/html/\/var\/www\/public/g' /etc/apache2/sites-available/000-default.conf
