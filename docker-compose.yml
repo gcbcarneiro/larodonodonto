@@ -18,7 +18,7 @@ services:
 
     db:
         image: mysql:5.7
-        container_name: laraveldb
+        container_name: laravelgcb
         restart: always
         environment:
             MYSQL_DATABASE: ${DB_DATABASE}
